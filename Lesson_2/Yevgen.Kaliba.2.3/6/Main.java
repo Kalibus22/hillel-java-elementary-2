@@ -4,11 +4,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Scanner Keyboard = new Scanner(System.in);
+        Scanner Keyboard1 = new Scanner(System.in);
         System.out.println("Enter first number:");
-        int a = Keyboard.nextInt();
+        int a = Keyboard1.nextInt();
         System.out.println("Enter second number:");
-        int b = Keyboard.nextInt();
+        int b = Keyboard1.nextInt();
         System.out.println("Checking the nearest to 10 number...");
             if((Math.abs(a-10)) < (Math.abs(b-10))) {
                 System.out.println("Nearest number to 10 is: "+a);
